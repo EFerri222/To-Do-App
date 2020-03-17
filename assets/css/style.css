@@ -1,11 +1,13 @@
 #container {
-    width: 50%;
+    width: 360px;
     margin: 0 auto;
     text-align: center;
+    border: 2px solid grey;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .completed {
