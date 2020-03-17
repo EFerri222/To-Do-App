@@ -21,4 +21,9 @@ $(document).ready(function() {
         $(this).toggleClass("completed");
     });
 
+    // Hide or show input when plus sign is clicked
+    $("#plus").on("click", function(){
+        $("input").fadeToggle();
+    })
+
 });
