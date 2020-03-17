@@ -3,7 +3,7 @@ $(document).ready(function() {
     // Add To-Do item when Enter is pressed on input
     $("input").on("keypress", function(event) {
         if(event.keyCode === 13 && $(this).val() !== "") {
-            $("ul").append("<li><span>X</span> " + $(this).val() + "</li>");
+            $("ul").append("<li><span><i class=\"fas fa-trash-alt\"></i></span> " + $(this).val() + "</li>");
             $(this).val("");
         }
     });
